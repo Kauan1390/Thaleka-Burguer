@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <link rel="icon" type="image/x-icon" href="Logotipo final1.png"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <title>Thaleka</title>
+        <style>
+            
+        body {
+        font-family: "Nunito", sans-serif;
+        color: white;
+        font-weight: 300;
+        line-height: 1.6; 
+        background-color: gray;
+        text-align: center;
+        }
+        header {
+            background-color: purple;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+ 
+        /* Logo e ícone de login centralizados */
+        .logo {
+            margin-bottom: 10px;
+        }
+ 
+        .logo img {
+            width: 175px; /* ajuste o tamanho da imagem conforme necessário */
+            border-radius: 30%;
+        }
+ 
+ 
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+        }
+ 
+        /* Links do menu */
+        .nav-links {
+            display: flex;
+            list-style: none;
+            margin-top: 10px;
+        }
+ 
+        .nav-links li {
+            margin: 0 15px;
+        }
+ 
+        .nav-links li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+ 
+        /* Ícones de login, favoritos e carrinho */
+        .nav-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+ 
+        .nav-icons li {
+            margin: 0 10px;
+        }
+ 
+        .nav-icons li a i {
+            color: #fff;
+            font-size: 24px;
+        }
+ 
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .nav-links {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+ 
+
+
+
+
+.gallery-container {
+            display: flex; /* Usa Flexbox para organizar as galerias */
+            flex-wrap: wrap; /* Permite que as galerias quebrem para a próxima linha */
+            justify-content: center; /* Centraliza as galerias */
+            max-width: 100%; /* Limita a largura máxima da galeria */
+        }
+ 
+        div.gallery {
+            margin-top: 10px;
+            margin-bottom: 30px;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding:10px;
+            width: 375px; /* Largura fixa para as galerias */
+            transition: border 0.1s; /* Transição suave na borda */
+           
+            align-items: center;
+            justify-content: center; /* Centraliza as galerias */
+        }
+ 
+ 
+        div.gallery img {
+            width: 100%; /* Imagem ocupa 100% da largura do contêiner */
+            height: 80%; /* Altura fixa para todas as imagens */
+            object-fit: cover; /* Ajusta a imagem para cobrir o espaço disponível sem distorção */
+            align-items: center;
+            justify-content: center; /* Centraliza as galerias */
+            border: solid black 2px;
+        }
+
+        .gallery-container2 {
+            display: flex; /* Usa Flexbox para organizar as galerias */
+            flex-wrap: wrap; /* Permite que as galerias quebrem para a próxima linha */
+            justify-content: center; /* Centraliza as galerias */
+            max-width: 100%; /* Limita a largura máxima da galeria */
+        }
+ 
+        div.gallery2 {
+            margin-top: 10px;
+            margin-bottom: 30px;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding:10px;
+            width: 375px; /* Largura fixa para as galerias */
+            transition: border 0.1s; /* Transição suave na borda */
+           
+            align-items: center;
+            justify-content: center; /* Centraliza as galerias */
+        }
+ 
+ 
+        div.gallery2 img {
+            width: 100%; /* Imagem ocupa 100% da largura do contêiner */
+            height: 80%; /* Altura fixa para todas as imagens */
+            object-fit: cover; /* Ajusta a imagem para cobrir o espaço disponível sem distorção */
+            align-items: center;
+            justify-content: center; /* Centraliza as galerias */
+            border: solid black 2px;
+        }
+ 
+
+.footer {
+  position: static;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background: purple;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+        @media (max-width:720px){
+            .footer {
+            position: static;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 2rem;
+            background: purple;
+            color: white;
+            font-weight: 500;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.2rem;
+            }
+        }
+        .content1{
+            text-decoration: none;
+            color: white;
+        }
+
+        </style>
+    </head>
+    <body>
+        
+        <header>
+            <!-- Logo com imagem de login -->
+            <div class="logo">
+              <img src="Logotipo final3.png" alt="Login">
+          </div>
+   
+          <!-- Navegação -->
+          <nav class="navbar">
+              <ul class="nav-links">
+                  <li><a href="Index.html">Home</a></li>
+                  <li><a href="Cardapio.html">Cardápio</a></li>
+                  <li><a href="Login.html">Login</a></li>
+                  <li><a href="Sobre Nós.html">Sobre nós</a></li>
+   
+              </ul>
+                      <!-- Ícones de Favoritos, Login e Carrinho -->
+
+              </ul>
+          </nav>
+      </header>
+      <div class="gallery-container">
+        <div class="gallery">
+            <a target="_blank" href="Hamburguer 2.jpg">
+                <img src="Hamburguer 2.jpg" alt="Imagem 1">
+            </a>
+        </div>
+   
+        <div class="gallery">
+            <a target="_blank" href="Hamburguer 3.jpg">
+                <img src="Hamburguer 3.jpg" alt="Imagem 2">
+            </a>
+        </div>
+   
+        <div class="gallery">
+            <a target="_blank" href="Hamburguer 4.jpg">
+                <img src="Hamburguer 4.jpg" alt="Imagem 3">
+            </a>
+        </div>
+ 
+        <div class="gallery-container2">  
+        <div class="gallery2">
+            <a target="_blank" href="hamburger-5630646_1280.jpg">
+                <img src="hamburger-5630646_1280.jpg" alt="Imagem 4">
+            </a>
+        </div>
+   
+        <div class="gallery2">
+            <a target="_blank" href="sandwich-5930496_1280.jpg">
+                <img src="sandwich-5930496_1280.jpg" alt="Imagem 5">
+            </a>
+        </div>
+   
+        <div class="gallery2">
+            <a target="_blank" href="burger-7419417_1280.jpg">
+                <img src="burger-7419417_1280.jpg" alt="Imagem 6">
+            </a>
+        </div>
+    </div>
+        <footer>
+        </div>
+        <div class="footer">&copy;<span id="year"> 2024 </span><span> Thaleka Burguer. All rights reserved.</span></div>
+
+        </div>
+        </footer>
+    </body>
+</html>
